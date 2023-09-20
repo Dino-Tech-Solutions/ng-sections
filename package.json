@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/Dino-Tech-Solutions/ng-sections"
   },
+  "publishConfig": {
+    "@Dino-Tech-Solutions:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
