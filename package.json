@@ -1,6 +1,13 @@
 {
-  "name": "ng-sections",
-  "version": "0.0.0",
+  "name": "@devdino/ng-sections",
+  "version": "0.0.1",
+  "author": {
+    "name": "DevDino"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ng-select/ng-select"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +15,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",
