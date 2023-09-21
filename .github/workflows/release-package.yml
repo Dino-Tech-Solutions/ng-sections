@@ -33,7 +33,7 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: publish @devdino/ng-sections
-        run: yarn publish ./dist/ns-sections
+        run: yarn publish ./dist/ng-sections
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

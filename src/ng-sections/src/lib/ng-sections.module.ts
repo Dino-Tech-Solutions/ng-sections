@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import {NgSectionOutletComponent} from "./ng-section-outlet/ng-section-outlet.component";
 import {NgSectionDirective} from "./ng-section.directive";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -8,6 +9,7 @@ import {NgSectionDirective} from "./ng-section.directive";
     NgSectionDirective
   ],
   imports: [
+    CommonModule
   ],
   exports: [
     NgSectionOutletComponent,

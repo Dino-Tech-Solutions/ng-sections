@@ -1,6 +1,6 @@
 {
   "name": "@devdino/ng-sections",
-  "version": "0.0.2",
+  "version": "0.0.1b",
   "author": {
     "name": "DevDino"
   },
@@ -13,9 +13,10 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve demo --port 4203 --open",
     "build": "ng build ng-sections",
     "watch": "ng build --watch --configuration development",
+    "publish-app": " npm publish ./dist/ng-sections --access public",
     "test": "ng test"
   },
   "dependencies": {

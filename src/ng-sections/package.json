@@ -1,6 +1,6 @@
 {
   "name": "@devdino/ng-sections",
-  "version": "0.0.1",
+  "version": "0.0.1b",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"

@@ -28,7 +28,11 @@ export class NgSectionsService {
   }
 
   public addTemplate(section: string, template: TemplateRef<any>): void {
-    this.registerSection(section, template);
+    if (!this.sections[section]) {
+      this.registerSection(section, template);
+    } else {
+      this.sections[section].subject.next(template);
+    }
   }
 
   public removeTemplate(section: string): void {
